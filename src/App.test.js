@@ -3,7 +3,7 @@ import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import App from './App';
 
-describe('List making app', () => {
+describe.skip('List making app', () => {
   it('Render elements on the page', () => {
     render(<App />);
     const header = screen.getByRole('heading', { name: 'Mui List Maker' });

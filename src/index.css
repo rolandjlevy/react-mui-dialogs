@@ -51,12 +51,12 @@ li.todo > .description  {
   background: #fff;
 }
 
-button.add:not(:disabled),
-button.add:not(:disabled) > * {
+button.btn:not(:disabled),
+button.btn:not(:disabled) > * {
   color: #fff;
 }
 
-button.add:disabled {
+button.btn:disabled {
   color: #000;
 }
 
@@ -83,11 +83,11 @@ button.add:disabled {
   font-weight: 600;
 }
 
-.remove, button.add:not(:disabled) {
+.remove, button.btn:not(:disabled) {
   cursor: pointer;
 }
 
-input, button.add {
+input, button.btn {
   padding: 5px 10px;
 }
 
